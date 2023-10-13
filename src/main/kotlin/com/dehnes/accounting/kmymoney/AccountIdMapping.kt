@@ -5,10 +5,10 @@ class AccountIdMapping private constructor(
     val pathToAccount: Map<String, KMyMoneyUtils.Account>,
 ) {
 
-    fun getById(id: String) = pathToAccount[idToPath[id]]
-    fun getByPath(path: String) = pathToAccount[path]
+    fun getById(id: String) = pathToAccount[idToPath[id]]!!
+    fun getByPath(path: String) = pathToAccount[path]!!
 
-    fun idToPath(id: String) = idToPath[id]
+    fun idToPath(id: String) = idToPath[id]!!
 
     companion object {
         fun create(accounts: List<KMyMoneyUtils.Account>): AccountIdMapping {
