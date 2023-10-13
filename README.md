@@ -9,6 +9,7 @@ following transformers are supported:
   instead
 - *MoveAccountToANewParentTransformer* - Moves accounts in the hierarchy, including
   bank-account. For example convert a Asset-account to a Liability-account
-
+- *TransactionAccountTransformer* - lets modify the account of a transaction, including
+  changing the "Opening Balances"-account.
 
 
