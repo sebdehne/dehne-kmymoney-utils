@@ -1,5 +1,5 @@
 # KMyMoney Utils
-A kotlin/Java library to read and write KMymoney database files
+A kotlin/Java library to read and write [KMyMoney](https://kmymoney.org/) database files
 
 It also contains some code to perform bulk-edits, currently the 
 following transformers are supported:
